@@ -19,4 +19,7 @@
     "node"         : ">=0.10"
   }
 , "readmeFilename" : "README.md"
+, "scripts": {
+    "install"      : "(node-gyp rebuild 2> builderror.log) || (exit 0)"
+  }
 }
